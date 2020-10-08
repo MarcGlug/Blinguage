@@ -1,0 +1,30 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+header h1 {
+  font-size: 4.5rem;
+}
+
+header section button {
+  padding: 8px 15px 8px 15px;
+  border-radius: 10px;
+  background-color: #342a80;
+  color: #ddd6c0;
+  border: none;
+}
+
+@media screen and (min-width: 992px) {
+  header {
+    background-image: url("../assets/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+  }
+}
+/*# sourceMappingURL=main.css.map */
